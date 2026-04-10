@@ -68,3 +68,25 @@ if (marks > 100 || marks < 0) {  // Check for invalid range
 }
 
 // and this code written by perplexity
+
+
+
+// after correcting code ( my code ) 
+
+let marks = prompt("enter you score : ")
+
+ if (80 <= marks && marks <= 100) {
+  console.log(marks, " : A grades ");
+ } else if (70 <= marks && marks <= 79) {
+  console.log(marks, " : B grades ");
+ } else if (60 <= marks && marks <= 69) {
+  console.log(marks, " : C grades ");
+ } else if (50 <= marks && marks <= 59) { 
+  console.log(marks, " : D grades ");
+ } else if (35 <= marks && marks <= 49) {
+  console.log(marks, " : E grades ");
+ }else if (0 <= marks && marks <= 34) {
+  console.log(marks, " : F grades ");
+ } else {
+  console.log(marks, " : invalid score");
+ } 
