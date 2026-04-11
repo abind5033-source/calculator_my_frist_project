@@ -30,63 +30,85 @@
 // let marks = prompt("inter your scroes");
 
 // if (marks > 100) {
-//   console.log(marks, " : invalide score");
+//   console.log(marks, " : invalid score");
 // } else if (80 <= marks || marks <= 100) {
-//   console.log(marks, " : A grades ");
+//   console.log(marks, " : A grade ");
 // } else if (70 <= marks || marks <= 79) {
-//   console.log(marks, " : B grades ");
+//   console.log(marks, " : B grade ");
 // } else if (60 <= marks || marks <= 69) {
-//   console.log(marks, " : C grades ");
+//   console.log(marks, " : C grade ");
 // } else if (50 <= marks || marks <= 59) {
-//   console.log(marks, " : D grades ");
+//   console.log(marks, " : D grade ");
 // } else if (35 <= marks || marks <= 49) {
-//   console.log(marks, " : E grades ");
+//   console.log(marks, " : E grade ");
 // } else {
-//   console.log(marks, " : F grades ");
+//   console.log(marks, " : F grade ");
 // }
 // this code written by me 
 
 
 
-let marks = prompt("Enter your scores");  // Fixed typo: "inter" → "Enter", "scroes" → "scores"
-marks = parseInt(marks);  // Convert string input to number
+// let marks = prompt("Enter your scores");  // Fixed typo: "inter" → "Enter", "scroes" → "scores"
+// marks = parseInt(marks);  // Convert string input to number
 
-if (marks > 100 || marks < 0) {  // Check for invalid range
-    console.log(marks, ": Invalid score");
-} else if (marks >= 80 && marks <= 100) {  // Fixed: use && for range
-    console.log(marks, ": A grade");
-} else if (marks >= 70 && marks <= 79) {
-    console.log(marks, ": B grade");
-} else if (marks >= 60 && marks <= 69) {
-    console.log(marks, ": C grade");
-} else if (marks >= 50 && marks <= 59) {
-    console.log(marks, ": D grade");
-} else if (marks >= 35 && marks <= 49) {
-    console.log(marks, ": E grade");
-} else {
-    console.log(marks, ": F grade");
-}
+// if (marks > 100 || marks < 0) {  // Check for invalid range
+//     console.log(marks, ": Invalid score");
+// } else if (marks >= 80 && marks <= 100) {  // Fixed: use && for range
+//     console.log(marks, ": A grade");
+// } else if (marks >= 70 && marks <= 79) {
+//     console.log(marks, ": B grade");
+// } else if (marks >= 60 && marks <= 69) {
+//     console.log(marks, ": C grade");
+// } else if (marks >= 50 && marks <= 59) {
+//     console.log(marks, ": D grade");
+// } else if (marks >= 35 && marks <= 49) {
+//     console.log(marks, ": E grade");
+// } else {
+//     console.log(marks, ": F grade");
+// }
 
-// and this code written by perplexity
+// // and this code written by perplexity
 
 
+// // after correcting code ( my code ) 
 
-// after correcting code ( my code ) 
+// let marks = prompt("enter you score : ")
 
-let marks = prompt("enter you score : ")
+//  if (80 <= marks && marks <= 100) {
+//   console.log(marks, " : A grades ");
+//  } else if (70 <= marks && marks <= 79) {
+//   console.log(marks, " : B grades ");
+//  } else if (60 <= marks && marks <= 69) {
+//   console.log(marks, " : C grades ");
+//  } else if (50 <= marks && marks <= 59) { 
+//   console.log(marks, " : D grades ");
+//  } else if (35 <= marks && marks <= 49) {
+//   console.log(marks, " : E grades ");
+//  }else if (0 <= marks && marks <= 34) {
+//   console.log(marks, " : F grades ");
+//  } else {
+//   console.log(marks, " : invalid score");
+//  } 
 
- if (80 <= marks && marks <= 100) {
-  console.log(marks, " : A grades ");
- } else if (70 <= marks && marks <= 79) {
-  console.log(marks, " : B grades ");
- } else if (60 <= marks && marks <= 69) {
-  console.log(marks, " : C grades ");
- } else if (50 <= marks && marks <= 59) { 
-  console.log(marks, " : D grades ");
- } else if (35 <= marks && marks <= 49) {
-  console.log(marks, " : E grades ");
- }else if (0 <= marks && marks <= 34) {
-  console.log(marks, " : F grades ");
- } else {
-  console.log(marks, " : invalid score");
+var num = 0;
+if (num % 2 == 0){
+    console.log( num );
  } 
+num++;
+console.log( num );
+
+
+// for (let i = 0 ; i <= 100 ; i++){
+//      console.log(  "i = ", i );
+// }
+
+// var num = 0;
+// for (let i = 0 ; i <= 100 ; i++){
+//     if (num % 2 == 0){
+//     console.log(  "even number = ", num );
+//  } 
+// num++;
+// }
+
+
+
