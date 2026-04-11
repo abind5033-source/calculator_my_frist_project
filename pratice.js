@@ -14,6 +14,14 @@
 // };
 // console.log(instagramId);
 
+
+
+
+
+
+
+
+
 //secondDay
 // let num = prompt("enter a number:");
 // if(num % 5 == 0){
@@ -21,7 +29,6 @@
 // }else{
 //     console.log( num + "number is not multiple by 5");
 // }
-
 
 
 
@@ -48,6 +55,9 @@
 
 
 
+
+
+
 // let marks = prompt("Enter your scores");  // Fixed typo: "inter" → "Enter", "scroes" → "scores"
 // marks = parseInt(marks);  // Convert string input to number
 
@@ -70,6 +80,13 @@
 // // and this code written by perplexity
 
 
+
+
+
+
+
+
+
 // // after correcting code ( my code ) 
 
 // let marks = prompt("enter you score : ")
@@ -90,25 +107,35 @@
 //   console.log(marks, " : invalid score");
 //  } 
 
-var num = 0;
-if (num % 2 == 0){
-    console.log( num );
- } 
-num++;
-console.log( num );
+
+
+// day three 
+
+
+// var num = 0;
+// if (num % 2 == 0){
+//     console.log( num );
+//  } 
+// num++;
+// console.log( num );
+
+
+
+
 
 
 // for (let i = 0 ; i <= 100 ; i++){
 //      console.log(  "i = ", i );
 // }
 
-// var num = 0;
-// for (let i = 0 ; i <= 100 ; i++){
-//     if (num % 2 == 0){
-//     console.log(  "even number = ", num );
-//  } 
-// num++;
-// }
 
 
 
+
+var num = 0;
+for (let i = 0 ; i <= 100 ; i++){
+    if (num % 2 == 0){
+    console.log(  "even number = ", num );
+ } 
+num++;
+}
