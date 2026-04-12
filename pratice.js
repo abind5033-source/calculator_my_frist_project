@@ -132,10 +132,53 @@
 
 
 
-var num = 0;
-for (let i = 0 ; i <= 100 ; i++){
-    if (num % 2 == 0){
-    console.log(  "even number = ", num );
- } 
-num++;
-}
+// var num = 0;
+// for (let i = 0 ; i <= 100 ; i++){
+//     if (num % 2 == 0){
+//     console.log(  "even number = ", num );
+//  } 
+// num++;
+// }
+
+
+
+
+
+// day four
+
+// let student = [85,97,44,37,76,60];
+// let sumMarks = 0 ;
+// for ( let i = 0 ; i < student.length ; i++ ){
+//      sumMarks += student[i] ;
+// }
+// console.log( "sum of marks  of student =" ,sumMarks);
+// console.log( "average marks of student " , sumMarks /student.length );
+
+
+
+
+// let priceOfItem = [250,645,300,900,50]
+// for ( let i = 0; i < priceOfItem.length ; i++){
+//    let percentvalue = priceOfItem[i] / 10 ;
+//    priceOfItem[i] -= percentvalue;
+// }
+// console.log(priceOfItem); 
+
+
+let company = ["Bloomberg","Microsoft","Uber","IBM","Netflix"];
+
+//removin first element 
+
+company.shift();
+console.log(company);
+
+//remove Uber & add ola in its place 
+
+company.splice(2,1, " Ola" );
+console.log(company);
+
+//add Amazon at the end
+
+company.push("Amazon");
+console.log(company)
+
