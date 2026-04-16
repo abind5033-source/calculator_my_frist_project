@@ -23,6 +23,7 @@
 
 
 //secondDay
+
 // let num = prompt("enter a number:");
 // if(num % 5 == 0){
 //     console.log( num + "number is multiple by 5");
@@ -144,6 +145,8 @@
 
 
 
+
+
 // day four
 
 // let student = [85,97,44,37,76,60];
@@ -165,20 +168,45 @@
 // console.log(priceOfItem); 
 
 
-let company = ["Bloomberg","Microsoft","Uber","IBM","Netflix"];
 
-//removin first element 
 
-company.shift();
-console.log(company);
+// let company = ["Bloomberg","Microsoft","Uber","IBM","Netflix"];
 
-//remove Uber & add ola in its place 
+// //removin first element 
 
-company.splice(2,1, " Ola" );
-console.log(company);
+// company.shift();
+// console.log(company);
 
-//add Amazon at the end
+// //remove Uber & add ola in its place 
 
-company.push("Amazon");
-console.log(company)
+// company.splice(2,1, " Ola" );
+// console.log(company);
 
+// //add Amazon at the end
+
+// company.push("Amazon");
+// console.log(company)
+
+
+
+
+//day five
+
+//multipilcation  two number by uding arrow function
+
+// let sum = (a,b)=>{
+//     console.log ( a*b );
+// }
+
+
+
+
+// day six 
+
+// let change = document.querySelector("h2");
+// console.dir(change.innerText);
+// change.innerText = change.innerText + "from apna college students ";
+// console.dir(change.innerText);
+
+let change = document.querySelectorAll(".box");
+// console.log(change);
