@@ -1,6 +1,6 @@
 .number {
-    background-color: rgb(67, 65, 65);
-    color: whitesmoke;
+    background-color: #242424;
+    color: #e6e6e6;
     width: 2.1cm;
     border: none;
     border-radius: 10px;
@@ -9,8 +9,8 @@
 }
 
 .operator {
-    background-color: rgb(67, 65, 65);
-    color: orangered;
+    background-color: #242424;
+    color: #E8821A;
     width: 2.1cm;
     border: none;
     border-radius: 10px;
@@ -19,8 +19,8 @@
 }
 
 .equle_to {
-    background-color: orangered;
-    color: whitesmoke;
+    background-color: #E8821A;
+    color: #e6e6e6;
     width: 2.1cm;
     border: none;
     border-radius: 10px;
