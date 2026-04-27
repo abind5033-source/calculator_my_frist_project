@@ -208,5 +208,27 @@
 // change.innerText = change.innerText + "from apna college students ";
 // console.dir(change.innerText);
 
-let change = document.querySelectorAll(".box");
+// let change = document.getElementsByClassName("box");
 // console.log(change);
+// console.dir(change);
+
+
+
+
+
+
+
+
+// day seven 
+
+// let body = document.querySelector("body");
+// let button = document.createElement("button");
+// button.innerText = " click me !";
+// button.style.backgroundColor = " red"
+// button.style.color= " white"
+// body.prepend(button)
+
+
+let p = document.querySelector("p");
+let getAttributeP = p.getAttribute("calss") ;
+console.log(getAttributeP);

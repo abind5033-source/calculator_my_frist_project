@@ -1,0 +1,58 @@
+.number {
+    background-color: rgb(67, 65, 65);
+    color: whitesmoke;
+    width: 2.1cm;
+    border: none;
+    border-radius: 10px;
+    height: 1.4cm;
+    font-size: 30px ;
+}
+
+.operator {
+    background-color: rgb(67, 65, 65);
+    color: orangered;
+    width: 2.1cm;
+    border: none;
+    border-radius: 10px;
+    height: 1.4cm;
+    font-size: 25px ;
+}
+
+.equle_to {
+    background-color: orangered;
+    color: whitesmoke;
+    width: 2.1cm;
+    border: none;
+    border-radius: 10px;
+    height: 1.4cm;
+    font-size: 35px ;
+}
+
+.display {
+    background-color: black;
+    height: 4cm;
+    width: 9cm;
+    font-size: 1cm;
+    color: whitesmoke;
+    text-align:end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.keyboard {
+    height: 8cm;
+    width: 9cm;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.maindiv {
+    padding: 100px 100px;
+    background-color: powderblue;
+    /* height: 10cm;
+    width: 9cm; */
+    padding: 10px;
+
+}
